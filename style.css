@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive, sans-serif;
+  text-align: center;
+  background-color: #0dcaf0;
+  color: midnightblue;
+  font-size: 16px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+a {
+  color: midnightblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lavender;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  transition: margin 0.5s ease-out;
+  background: linear-gradient(90deg, #0dcaf0 0%, lavender 100%);
+}
+
+.screen.up {
+  margin-top: -100vh;  
+}
+
+h1 {
+  line-height: 1.4;
+  font-size: 130px;
+}
+
+.start {
+  font-size: 40px;
+}
+
